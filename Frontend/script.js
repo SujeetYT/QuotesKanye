@@ -8,7 +8,7 @@ btn.addEventListener("click", async ()=>{
     try {
         box.style.display = "block";
         loading.style.display = "block";
-        const apiLink = "https://fast-waters-77653.herokuapp.com/";
+        const apiLink = "https://quoteskanye.onrender.com/";
         let response = await fetch(apiLink);
         let result = await response.json();
         loading.style.display = "none";
